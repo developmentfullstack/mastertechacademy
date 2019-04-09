@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+nav{
+    align-items: center; /* alinhar itens */
+    background-color: #6b7f5e;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+}
+nav a {
+    color: #dde0db;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #2e4d69;
+    text-decoration: none;
+}
+/*
+nav a:nth-child(1){
+    color: black;
+    font-size: 22pt;
+    font-weight: 900;
+}
+*/
+header{
+    background-image: url(".../images/fundo.jpg");
+    background-size: cover;
+}
+section{
+    background-color: antiquewhite;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    margin-top: 0px;
+}
+section div{
+    align-items: center;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+}
+div input{
+    margin-bottom: 5px;
+    width: 130%;
+}
+:focus{
+    background-color: transparent;
+}
+::placeholder{
+    color: grey;
+    font-size: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+div input:nth-child(4){
+    background-color: #2e4d69;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 0px 9px grey;
+    color: aquamarine;
+    font-weight: 900;
+    margin-top: 20px;
+    width: 70%;
+}
+footer{
+    align-items: center;
+    background-color:  #6b7f5e;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    width: 100%;
+}
+/* 
+footer div{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+} 
+*/
+/*
+footer div img{
+    heigth: 30px;
+    width: 30px;
+}
+*/
